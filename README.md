@@ -155,3 +155,44 @@ Now run the tests again and you will see your new test
 ```
 
 ## Step 10
+Add a new file pair for our new spec angular.spec and add the spec
+```
+    #This spec is an example on how to test an angular website with webdriver.io
+
+    Check the title of the Angular home page
+    ----------------------------------------
+    * Check the title of the Google home page is "Angular testing with Gauge and webdriver.io"
+```
+Add the following code to the angular.js steps file
+```
+    'use strict'
+
+    var webdriverjsAngular = require('webdriverjs-angular');
+    var options = {
+      desiredCapabilities: {
+        browserName: 'chrome'
+      },
+      ngRoot: 'body' // main application selector
+    };
+    var chai = require('chai');
+    var chaiAsPromised = require('chai-as-promised');
+
+    chai.use(chaiAsPromised);
+    expect = chai.expect;
+    chai.Should();
+
+    var assert = require("assert");
+
+    gauge.step("Check the title of the Angular home page is <title>", function (titleGiven, done) {
+      webdriverjsAngular
+        .remote(options)
+        .init()
+        .url('http://127.0.0.1:55623/')
+        .getTitle().then(function(title) {
+          assert.equal(title, titleGiven);
+        })
+        .end()
+        .call(done);
+    });
+```
+This spec uses the webdriverjs-angular driver to check the title on an angular page.  Nice and simple.
