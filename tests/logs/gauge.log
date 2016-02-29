@@ -25,3 +25,72 @@ Successfully initialized the project. Run specifications with "gauge specs/"
 20:10:31.622 Scenarios:	2 executed	2 passed	0 failed	0 skipped
 20:10:31.622 
 Total time taken: 32ms
+08:18:04.014 Runner connection error: Timed out connecting to [::]:55129
+08:18:04.016 Error while killing runner: os: process already finished
+08:18:04.016 Failed to start gauge API: Timed out connecting to [::]:55129
+08:18:42.872 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+08:18:42.875 # Specification Heading
+08:18:42.876 ## Vowel counts in single word
+08:18:42.879 * Vowels in English language are "aeiou".
+08:18:42.882 * The word "gauge" has "3" vowels.
+08:18:42.884 ## Vowel counts in multiple word
+08:18:42.885 * Vowels in English language are "aeiou".
+08:18:42.886 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+08:18:42.890 # This spec is an example on how to use Asynch operqtions with webdriver.io
+08:18:42.891 ## Check the title
+08:18:42.892 * Check the title of the Google home page is "Google"
+08:18:42.927 Error Message: write tcp 127.0.0.1:55369->127.0.0.1:55370: use of closed network connection
+08:18:42.927 Stacktrace: 
+08:18:42.927 Failed Step: Check the title of the Google home page is "Google"
+08:18:42.927 Error Message: Connection closed [127.0.0.1:55370] cause: EOF
+08:18:42.927 Stacktrace: 
+08:18:42.929 Error Message: write tcp 127.0.0.1:55369->127.0.0.1:55370: use of closed network connection
+08:18:42.929 Stacktrace: 
+08:18:42.929 Error Message: write tcp 127.0.0.1:55369->127.0.0.1:55370: use of closed network connection
+08:18:42.929 Stacktrace: 
+08:18:42.929 Error Message: write tcp 127.0.0.1:55369->127.0.0.1:55370: use of closed network connection
+08:18:42.929 Stacktrace: 
+08:18:42.929 Specifications:	2 executed	1 passed	1 failed	0 skipped
+08:18:42.929 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+08:18:42.929 
+Total time taken: 57ms
+08:19:30.660 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+08:19:30.664 # Specification Heading
+08:19:30.666 ## Vowel counts in single word
+08:19:30.669 * Vowels in English language are "aeiou".
+08:19:30.672 * The word "gauge" has "3" vowels.
+08:19:30.675 ## Vowel counts in multiple word
+08:19:30.676 * Vowels in English language are "aeiou".
+08:19:30.678 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+08:19:30.690 # This spec is an example on how to use Asynch operqtions with webdriver.io
+08:19:30.691 ## Check the title
+08:19:30.691 * Check the title of the Google home page is "Google"
+08:19:30.731 Error Message: write tcp 127.0.0.1:55381->127.0.0.1:55382: use of closed network connection
+08:19:30.731 Stacktrace: 
+08:19:30.731 Failed Step: Check the title of the Google home page is "Google"
+08:19:30.731 Error Message: Connection closed [127.0.0.1:55382] cause: EOF
+08:19:30.731 Stacktrace: 
+08:19:30.732 Error Message: write tcp 127.0.0.1:55381->127.0.0.1:55382: use of closed network connection
+08:19:30.732 Stacktrace: 
+08:19:30.732 Error Message: write tcp 127.0.0.1:55381->127.0.0.1:55382: use of closed network connection
+08:19:30.732 Stacktrace: 
+08:19:30.732 Error Message: write tcp 127.0.0.1:55381->127.0.0.1:55382: use of closed network connection
+08:19:30.732 Stacktrace: 
+08:19:30.836 Specifications:	2 executed	1 passed	1 failed	0 skipped
+08:19:30.836 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+08:19:30.836 
+Total time taken: 71ms

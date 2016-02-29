@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "description": "Angular app tested with gauge-js and webdriver",
   "scripts": {
-    "test": "gauge/specs"
+    "test": "gauge tests/specs/"
   },
   "dependencies": {
     "express": "^4.13.4"
   },
   "devDependencies": {
-    "live-server": "^0.9.2"
+    "live-server": "^0.9.2",
+    "webdriverio": "^4.0.3"
   }
 }
