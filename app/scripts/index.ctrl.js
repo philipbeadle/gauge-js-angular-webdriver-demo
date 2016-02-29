@@ -1,6 +1,6 @@
 angular.module('app').controller("MainController", function(){
     var vm = this;
-    vm.title = 'Angular testing from scratch';
+    vm.title = 'Angular testing with Gauge and webdriver.io';
     vm.searchInput = '';
     vm.festivals = [
         {

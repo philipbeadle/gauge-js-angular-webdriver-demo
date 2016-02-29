@@ -1,0 +1,21 @@
+08:25:27.854 Initializing concepts cache with 0 concepts
+08:25:27.854 Watching directory: /Projects/gauge-js-angular-webdriver/tests/specs
+08:25:27.854 Found 2 files
+08:25:27.855 Initializing specs cache with 2 specs
+08:25:27.855 Adding specs from /Projects/gauge-js-angular-webdriver/tests/specs/google.spec
+08:25:27.855 Adding specs from /Projects/gauge-js-angular-webdriver/tests/specs/example.spec
+08:25:27.861 Initializing steps cache with 7 steps
+08:26:44.624 Initializing concepts cache with 0 concepts
+08:26:44.624 Watching directory: /Projects/gauge-js-angular-webdriver/tests/specs
+08:26:44.624 Found 2 files
+08:26:44.624 Initializing specs cache with 2 specs
+08:26:44.624 Adding specs from /Projects/gauge-js-angular-webdriver/tests/specs/google.spec
+08:26:44.625 Adding specs from /Projects/gauge-js-angular-webdriver/tests/specs/example.spec
+08:26:44.632 Initializing steps cache with 7 steps
+08:27:17.347 Initializing concepts cache with 0 concepts
+08:27:17.347 Watching directory: /Projects/gauge-js-angular-webdriver/tests/specs
+08:27:17.347 Found 2 files
+08:27:17.347 Initializing specs cache with 2 specs
+08:27:17.347 Adding specs from /Projects/gauge-js-angular-webdriver/tests/specs/google.spec
+08:27:17.347 Adding specs from /Projects/gauge-js-angular-webdriver/tests/specs/example.spec
+08:27:17.354 Initializing steps cache with 7 steps

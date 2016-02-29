@@ -1,0 +1,87 @@
+08:15:15.019 Failed to find project directory
+08:16:33.861 Runner connection error: Timed out connecting to [::]:55093
+08:16:33.861 Error while killing runner: os: process already finished
+08:16:33.861 Failed to start gauge API: Timed out connecting to [::]:55093
+08:25:27.864 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+08:25:27.867 # Specification Heading
+08:25:27.869 ## Vowel counts in single word
+08:25:27.872 * Vowels in English language are "aeiou".
+08:25:27.874 * The word "gauge" has "3" vowels.
+08:25:27.876 ## Vowel counts in multiple word
+08:25:27.877 * Vowels in English language are "aeiou".
+08:25:27.879 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+08:25:27.883 # This spec is an example on how to use Asynch operqtions with webdriver.io
+08:25:27.884 ## Check the title
+08:25:27.885 * Check the title of the Google home page is "Google"
+08:25:27.923 Error Message: write tcp 127.0.0.1:55451->127.0.0.1:55452: use of closed network connection
+08:25:27.923 Stacktrace: 
+08:25:27.923 Failed Step: Check the title of the Google home page is "Google"
+08:25:27.923 Error Message: Connection closed [127.0.0.1:55452] cause: EOF
+08:25:27.923 Stacktrace: 
+08:25:27.923 Error Message: write tcp 127.0.0.1:55451->127.0.0.1:55452: use of closed network connection
+08:25:27.923 Stacktrace: 
+08:25:27.923 Error Message: write tcp 127.0.0.1:55451->127.0.0.1:55452: use of closed network connection
+08:25:27.923 Stacktrace: 
+08:25:27.924 Error Message: write tcp 127.0.0.1:55451->127.0.0.1:55452: use of closed network connection
+08:25:27.924 Stacktrace: 
+08:25:28.029 Specifications:	2 executed	1 passed	1 failed	0 skipped
+08:25:28.029 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+08:25:28.029 
+Total time taken: 59ms
+08:26:44.636 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+08:26:44.640 # Specification Heading
+08:26:44.642 ## Vowel counts in single word
+08:26:44.646 * Vowels in English language are "aeiou".
+08:26:44.648 * The word "gauge" has "3" vowels.
+08:26:44.651 ## Vowel counts in multiple word
+08:26:44.652 * Vowels in English language are "aeiou".
+08:26:44.661 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+08:26:44.665 # This spec is an example on how to use Asynch operqtions with webdriver.io
+08:26:44.666 ## Check the title
+08:26:44.666 * Check the title of the Google home page is "Google"
+08:26:46.283 Failed Step: Check the title of the Google home page is "Google"
+08:26:46.283 Error Message: Error: Timed out
+08:26:46.283 Stacktrace: 
+Error: Timed out
+    at null.<anonymous> (/Users/philipbeadle/.gauge/plugins/js/1.1.0/src/test.js:42:23)
+    at Timer.listOnTimeout (timers.js:119:15)
+08:26:46.388 Specifications:	2 executed	1 passed	1 failed	0 skipped
+08:26:46.388 Scenarios:	3 executed	2 passed	1 failed	0 skipped
+08:26:46.388 
+Total time taken: 1.648s
+08:27:17.357 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+08:27:17.360 # Specification Heading
+08:27:17.361 ## Vowel counts in single word
+08:27:17.364 * Vowels in English language are "aeiou".
+08:27:17.366 * The word "gauge" has "3" vowels.
+08:27:17.369 ## Vowel counts in multiple word
+08:27:17.369 * Vowels in English language are "aeiou".
+08:27:17.371 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+08:27:17.374 # This spec is an example on how to use Asynch operqtions with webdriver.io
+08:27:17.375 ## Check the title
+08:27:17.376 * Check the title of the Google home page is "Google"
+08:27:22.903 Specifications:	2 executed	2 passed	0 failed	0 skipped
+08:27:22.904 Scenarios:	3 executed	3 passed	0 failed	0 skipped
+08:27:22.904 
+Total time taken: 5.441s
