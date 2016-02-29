@@ -1,7 +1,7 @@
-#Angular Testing From Scratch 
+# Testing an angular js site with Gauge and webdriver.io
 This project is to demonstrate how to go from an empty folder to a tested Angular App.
-It will use Cucumber.js and protractor for automating the UI.
-The app will have an Express service to demonstrate how to use super-test-as-promised for testing APIs
+It will use gauge-js and webdriver.io for automating the UI.
+
 
 #### How to follow this tutorial
 The code is all in github repo https://github.com/philipbeadle/angularTestFromScratch
