@@ -3,7 +3,7 @@ This project is to demonstrate how to go from an empty folder to a tested Angula
 It will use Cucumber.js and protractor for automating the UI.
 The app will have an Express service to demonstrate how to use super-test-as-promised for testing APIs
 
-####How to follow this tutorial
+#### How to follow this tutorial
 The code is all in github repo https://github.com/philipbeadle/angularTestFromScratch
 * Open a Terminal window
 * Clone the repo locally and switch to branch Step1
@@ -12,14 +12,14 @@ _If you don't know how to set up SSH connections to Github check this article [S
 git clone git@github.com:philipbeadle/gauge-js-angular-webdriver-demo.git.git
 ```
 
-##Step 1
+## Step 1
 ```
 git checkout Step1
 ```
 This step shows a completed Angular app that shows off some basic elements and concepts such as lists and forms
 See [Build Angular in 30 minutes](http://www.revillweb.com/tutorials/angularjs-in-30-minutes-angularjs-tutorial/) for how this was built
 
-##Step 2
+## Step 2
 Install gauge, best way is to use brew
 ```
     brew update
@@ -27,17 +27,17 @@ Install gauge, best way is to use brew
 ```
 Install the Gauge plugin for IntelliJ too.
 
-##Step 3
+## Step 3
 Then install the gauge-js plugin
 ```
     gauge install js
 ```
-##Step 4
+## Step 4
 Add a folder called tests and then initialise gauge-js in that folder
 ```
     gauge --init js
 ```
-##Step 5
+## Step 5
 Check you have gauge setup correctly by running
 ```
     gauge specs/
@@ -55,14 +55,14 @@ You can checkout step5 to get to this point
 ```
 git checkout Step5
 ```
-##Step 6
+## Step 6
 Check your angular site works by running live-server in the app folder
 if you dont have live-server install it with
 ```
     npm install live-server -g
 ```
 You should see a basic site with a list of festivals that I DJ at :)
-##Step 7
+## Step 7
 Initialise the tests folder to use node
 ```
     npm init
@@ -75,7 +75,7 @@ there so you can run the tests by typing
 ```
     npm test
 ```
-##Step 8
+## Step 8
 Install webdriver for angular and the chai assertion library
 ```
     npm install chai --save-dev
@@ -83,7 +83,7 @@ Install webdriver for angular and the chai assertion library
     npm install webdriverio --save-dev
     npm install webdriverjs-angular --save-dev
 ```
-##Step 9
+## Step 9
 Add a new file called google.spec
 
 We'll test out the google home page before we test our angular app.
@@ -153,3 +153,5 @@ Now run the tests again and you will see your new test
     Specifications: 2 executed      2 passed        0 failed        0 skipped
     Scenarios:      3 executed      3 passed        0 failed        0 skipped
 ```
+
+## Step 10
