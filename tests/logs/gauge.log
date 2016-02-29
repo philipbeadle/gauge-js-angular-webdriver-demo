@@ -1,0 +1,27 @@
+20:10:13.123  create  manifest.json
+20:10:13.127  create  specs
+20:10:13.127  create  specs/example.spec
+20:10:13.130  create  env
+20:10:13.130  create  env/default
+20:10:13.131  create  env/default/default.properties
+20:10:13.208 
+Successfully initialized the project. Run specifications with "gauge specs/"
+20:10:31.484 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+20:10:31.488 # Specification Heading
+20:10:31.489 ## Vowel counts in single word
+20:10:31.504 * Vowels in English language are "aeiou".
+20:10:31.508 * The word "gauge" has "3" vowels.
+20:10:31.511 ## Vowel counts in multiple word
+20:10:31.511 * Vowels in English language are "aeiou".
+20:10:31.513 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+20:10:31.622 Specifications:	1 executed	1 passed	0 failed	0 skipped
+20:10:31.622 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+20:10:31.622 
+Total time taken: 32ms

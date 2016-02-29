@@ -41,3 +41,11 @@ Check you have gauge setup correctly by running
     gauge specs/
 ```
 You should get
+```
+# Specification Heading
+  ## Vowel counts in single word         ✔ ✔
+  ## Vowel counts in multiple word       ✔ ✔
+
+Specifications: 1 executed      1 passed        0 failed        0 skipped
+Scenarios:      2 executed      2 passed        0 failed        0 skipped
+```
