@@ -94,3 +94,534 @@ Total time taken: 57ms
 08:19:30.836 Scenarios:	3 executed	2 passed	1 failed	0 skipped
 08:19:30.836 
 Total time taken: 71ms
+21:33:30.129 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+21:33:30.132 # This spec is an example on how to test an angular website with webdriver.io
+21:33:30.133 ## Check the title of the Angular home page
+21:33:30.135 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+21:33:30.264 Error Message: write tcp 127.0.0.1:58224->127.0.0.1:58225: use of closed network connection
+21:33:30.264 Stacktrace: 
+21:33:30.264 Failed Step: Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+21:33:30.264 Error Message: Connection closed [127.0.0.1:58225] cause: EOF
+21:33:30.264 Stacktrace: 
+21:33:30.264 Error Message: write tcp 127.0.0.1:58224->127.0.0.1:58225: use of closed network connection
+21:33:30.264 Stacktrace: 
+21:33:30.264 Error Message: write tcp 127.0.0.1:58224->127.0.0.1:58225: use of closed network connection
+21:33:30.264 Stacktrace: 
+21:33:30.264 Spec data store didn't get initialized : write tcp 127.0.0.1:58224->127.0.0.1:58225: use of closed network connection
+21:33:30.265 Spec data store didn't get initialized : write tcp 127.0.0.1:58224->127.0.0.1:58225: use of closed network connection
+21:33:30.265 Error Message: write tcp 127.0.0.1:58224->127.0.0.1:58225: use of closed network connection
+21:33:30.265 Stacktrace: 
+21:33:30.367 Specifications:	1 executed	0 passed	1 failed	2 skipped
+21:33:30.368 Scenarios:	1 executed	0 passed	1 failed	3 skipped
+21:33:30.368 
+Total time taken: 135ms
+21:40:26.372 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+21:40:26.375 # This spec is an example on how to test an angular website with webdriver.io
+21:40:26.376 ## Check the title of the Angular home page
+21:40:26.378 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+21:41:58.312 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+21:41:58.315 # This spec is an example on how to test an angular website with webdriver.io
+21:41:58.316 ## Check the title of the Angular home page
+21:41:58.318 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+21:42:02.637 # Specification Heading
+21:42:02.637 ## Vowel counts in single word
+21:42:02.639 * Vowels in English language are "aeiou".
+21:42:02.641 * The word "gauge" has "3" vowels.
+21:42:02.644 ## Vowel counts in multiple word
+21:42:02.644 * Vowels in English language are "aeiou".
+21:42:02.646 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+21:42:02.650 # This spec is an example on how to use Asynch operqtions with webdriver.io
+21:42:02.651 ## Check the title
+21:42:02.651 * Check the title of the Google home page is "Google"
+21:42:07.364 Specifications:	3 executed	3 passed	0 failed	0 skipped
+21:42:07.364 Scenarios:	4 executed	4 passed	0 failed	0 skipped
+21:42:07.364 
+Total time taken: 8.948s
+21:53:53.379 [ParseError] /Projects/gauge-js-angular-webdriver-demo/tests/specs/angular.spec : line no: 9, Step should not be blank
+21:54:38.488 Runner connection error: Timed out connecting to [::]:58531
+21:54:38.489 Error while killing runner: os: process already finished
+21:54:38.489 Failed to start gauge API: Timed out connecting to [::]:58531
+21:54:39.573 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+21:54:39.576 # This spec is an example on how to test an angular website with webdriver.io
+21:54:39.577 ## Check the title of the Angular home page
+21:54:39.660 Error Message: ReferenceError: done is not defined
+21:54:39.660 Stacktrace: 
+ReferenceError: done is not defined
+    at Object.<anonymous> (hooks.js:9:11)
+    at runFn (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:51:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:78:11)
+    at Object.executeHook [as hook] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:98:68)
+    at executeHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:44:26)
+    at executeBeforeScenarioHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:65:15)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+21:54:39.661 ## Add a new festival
+21:54:39.675 Error Message: ReferenceError: done is not defined
+21:54:39.675 Stacktrace: 
+ReferenceError: done is not defined
+    at Object.<anonymous> (hooks.js:9:11)
+    at runFn (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:51:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:78:11)
+    at Object.executeHook [as hook] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:98:68)
+    at executeHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:44:26)
+    at executeBeforeScenarioHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:65:15)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+21:54:39.677 # Specification Heading
+21:54:39.678 ## Vowel counts in single word
+21:54:39.685 Error Message: ReferenceError: done is not defined
+21:54:39.685 Stacktrace: 
+ReferenceError: done is not defined
+    at Object.<anonymous> (hooks.js:9:11)
+    at runFn (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:51:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:78:11)
+    at Object.executeHook [as hook] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:98:68)
+    at executeHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:44:26)
+    at executeBeforeScenarioHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:65:15)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+21:54:39.687 ## Vowel counts in multiple word
+21:54:39.690 Error Message: ReferenceError: done is not defined
+21:54:39.690 Stacktrace: 
+ReferenceError: done is not defined
+    at Object.<anonymous> (hooks.js:9:11)
+    at runFn (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:51:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:78:11)
+    at Object.executeHook [as hook] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:98:68)
+    at executeHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:44:26)
+    at executeBeforeScenarioHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:65:15)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+21:54:39.692 # This spec is an example on how to use Asynch operqtions with webdriver.io
+21:54:39.695 ## Check the title
+21:54:39.698 Error Message: ReferenceError: done is not defined
+21:54:39.698 Stacktrace: 
+ReferenceError: done is not defined
+    at Object.<anonymous> (hooks.js:9:11)
+    at runFn (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:51:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:78:11)
+    at Object.executeHook [as hook] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:98:68)
+    at executeHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:44:26)
+    at executeBeforeScenarioHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:65:15)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+21:54:39.802 Specifications:	3 executed	0 passed	3 failed	0 skipped
+21:54:39.802 Scenarios:	5 executed	0 passed	5 failed	0 skipped
+21:54:39.802 
+Total time taken: 127ms
+22:12:28.828 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+22:12:28.830 # This spec is an example on how to test an angular website with webdriver.io
+22:12:28.831 ## Check the title of the Angular home page
+22:12:28.835 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+22:12:33.106 ## Add a new festival
+22:12:33.108 # Specification Heading
+22:12:33.109 ## Vowel counts in single word
+22:12:33.110 * Vowels in English language are "aeiou".
+22:12:33.111 * The word "gauge" has "3" vowels.
+22:12:33.114 ## Vowel counts in multiple word
+22:12:33.115 * Vowels in English language are "aeiou".
+22:12:33.117 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+22:12:33.122 # This spec is an example on how to use Asynch operqtions with webdriver.io
+22:12:33.123 ## Check the title
+22:12:33.124 * Check the title of the Google home page is "Google"
+22:12:36.704 Specifications:	3 executed	3 passed	0 failed	0 skipped
+22:12:36.704 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+22:12:36.704 
+Total time taken: 7.775s
+22:13:50.810 Runner connection error: Timed out connecting to [::]:59661
+22:13:50.810 Error while killing runner: os: process already finished
+22:13:50.810 Failed to start gauge API: Timed out connecting to [::]:59661
+22:13:57.853 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+22:13:57.856 # This spec is an example on how to test an angular website with webdriver.io
+22:13:57.857 ## Check the title of the Angular home page
+22:13:57.860 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+22:13:58.447 Failed Step: Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+22:13:58.447 Error Message: ReferenceError: driver is not defined
+22:13:58.447 Stacktrace: 
+ReferenceError: driver is not defined
+    at Object.<anonymous> (angular.js:19:3)
+    at runFnAsync (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:65:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:75:16)
+    at Object.executeStep [as step] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:45:70)
+    at executeStep (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:31:26)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+    at Socket.emit (events.js:107:17)
+22:13:58.448 ## Add a new festival
+22:13:58.450 # Specification Heading
+22:13:58.451 ## Vowel counts in single word
+22:13:58.452 * Vowels in English language are "aeiou".
+22:13:58.454 * The word "gauge" has "3" vowels.
+22:13:58.456 ## Vowel counts in multiple word
+22:13:58.457 * Vowels in English language are "aeiou".
+22:13:58.459 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+22:13:58.462 # This spec is an example on how to use Asynch operqtions with webdriver.io
+22:13:58.463 ## Check the title
+22:13:58.464 * Check the title of the Google home page is "Google"
+22:14:02.455 Specifications:	3 executed	2 passed	1 failed	0 skipped
+22:14:02.455 Scenarios:	5 executed	4 passed	1 failed	0 skipped
+22:14:02.455 
+Total time taken: 4.497s
+22:14:29.903 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+22:14:29.906 # This spec is an example on how to test an angular website with webdriver.io
+22:14:29.907 ## Check the title of the Angular home page
+22:14:30.058 Error Message: ReferenceError: global is not defined
+22:14:30.058 Stacktrace: 
+ReferenceError: global is not defined
+    at Object.gauge.hooks.beforeScenario.tags (hooks.js:6:3)
+    at runFn (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:51:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:78:11)
+    at Object.executeHook [as hook] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:98:68)
+    at executeHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:44:26)
+    at executeBeforeScenarioHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:65:15)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+22:14:30.059 ## Add a new festival
+22:14:30.061 # Specification Heading
+22:14:30.061 ## Vowel counts in single word
+22:14:30.062 * Vowels in English language are "aeiou".
+22:14:30.064 * The word "gauge" has "3" vowels.
+22:14:30.066 ## Vowel counts in multiple word
+22:14:30.067 * Vowels in English language are "aeiou".
+22:14:30.069 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+22:14:30.072 # This spec is an example on how to use Asynch operqtions with webdriver.io
+22:14:30.073 ## Check the title
+22:14:30.074 * Check the title of the Google home page is "Google"
+22:14:33.746 Specifications:	3 executed	2 passed	1 failed	0 skipped
+22:14:33.746 Scenarios:	5 executed	4 passed	1 failed	0 skipped
+22:14:33.746 
+Total time taken: 3.741s
+22:15:44.436 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+22:15:44.439 # This spec is an example on how to test an angular website with webdriver.io
+22:15:44.440 ## Check the title of the Angular home page
+22:15:44.579 Error Message: ReferenceError: global is not defined
+22:15:44.579 Stacktrace: 
+ReferenceError: global is not defined
+    at Object.gauge.hooks.beforeScenario.tags (hooks.js:7:3)
+    at runFn (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:51:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:78:11)
+    at Object.executeHook [as hook] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:98:68)
+    at executeHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:44:26)
+    at executeBeforeScenarioHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:65:15)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+22:15:44.580 ## Add a new festival
+22:15:44.582 # Specification Heading
+22:15:44.583 ## Vowel counts in single word
+22:15:44.584 * Vowels in English language are "aeiou".
+22:15:44.586 * The word "gauge" has "3" vowels.
+22:15:44.588 ## Vowel counts in multiple word
+22:15:44.589 * Vowels in English language are "aeiou".
+22:15:44.590 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+22:15:44.594 # This spec is an example on how to use Asynch operqtions with webdriver.io
+22:15:44.595 ## Check the title
+22:15:44.596 * Check the title of the Google home page is "Google"
+22:15:48.060 Specifications:	3 executed	2 passed	1 failed	0 skipped
+22:15:48.060 Scenarios:	5 executed	4 passed	1 failed	0 skipped
+22:15:48.060 
+Total time taken: 3.518s
+22:17:45.670 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+22:17:45.673 # This spec is an example on how to test an angular website with webdriver.io
+22:17:45.674 ## Check the title of the Angular home page
+22:17:45.902 Error Message: ReferenceError: done is not defined
+22:17:45.902 Stacktrace: 
+ReferenceError: done is not defined
+    at Object.gauge.hooks.beforeScenario.tags (hooks.js:14:11)
+    at runFn (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:51:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:78:11)
+    at Object.executeHook [as hook] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:98:68)
+    at executeHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:44:26)
+    at executeBeforeScenarioHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:65:15)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+22:17:45.913 ## Add a new festival
+22:17:45.917 # Specification Heading
+22:17:45.918 ## Vowel counts in single word
+22:17:45.919 * Vowels in English language are "aeiou".
+22:17:45.921 * The word "gauge" has "3" vowels.
+22:17:45.925 ## Vowel counts in multiple word
+22:17:45.925 * Vowels in English language are "aeiou".
+22:17:45.927 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+22:17:45.932 # This spec is an example on how to use Asynch operqtions with webdriver.io
+22:17:45.932 ## Check the title
+22:17:45.933 * Check the title of the Google home page is "Google"
+22:17:50.071 Error Message: write tcp 127.0.0.1:59802->127.0.0.1:59803: use of closed network connection
+22:17:50.072 Stacktrace: 
+22:17:50.072 Failed Step: Check the title of the Google home page is "Google"
+22:17:50.072 Error Message: Connection closed [127.0.0.1:59803] cause: EOF
+22:17:50.072 Stacktrace: 
+22:17:50.072 Error Message: write tcp 127.0.0.1:59802->127.0.0.1:59803: use of closed network connection
+22:17:50.072 Stacktrace: 
+22:17:50.072 Error Message: write tcp 127.0.0.1:59802->127.0.0.1:59803: use of closed network connection
+22:17:50.072 Stacktrace: 
+22:17:50.072 Error Message: write tcp 127.0.0.1:59802->127.0.0.1:59803: use of closed network connection
+22:17:50.072 Stacktrace: 
+22:17:50.175 Specifications:	3 executed	1 passed	2 failed	0 skipped
+22:17:50.175 Scenarios:	5 executed	3 passed	2 failed	0 skipped
+22:17:50.175 
+Total time taken: 4.401s
+10:12:53.474 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+10:12:53.479 # This spec is an example on how to test an angular website with webdriver.io
+10:12:53.480 ## Check the title of the Angular home page
+10:12:53.874 Error Message: ReferenceError: done is not defined
+10:12:53.874 Stacktrace: 
+ReferenceError: done is not defined
+    at Object.gauge.hooks.beforeScenario.tags (hooks.js:14:11)
+    at runFn (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:51:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/test.js:78:11)
+    at Object.executeHook [as hook] (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/executor.js:98:68)
+    at executeHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:44:26)
+    at executeBeforeScenarioHook (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:65:15)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/gauge.js:17:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.1.0/src/connection.js:18:10)
+10:12:53.885 ## Add a new festival
+10:12:53.888 # Specification Heading
+10:12:53.889 ## Vowel counts in single word
+10:12:53.890 * Vowels in English language are "aeiou".
+10:12:53.894 * The word "gauge" has "3" vowels.
+10:12:53.898 ## Vowel counts in multiple word
+10:12:53.898 * Vowels in English language are "aeiou".
+10:12:53.900 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+10:12:53.906 # This spec is an example on how to use Asynch operqtions with webdriver.io
+10:12:53.907 ## Check the title
+10:12:53.907 * Check the title of the Google home page is "Google"
+10:13:00.912 Error Message: write tcp 127.0.0.1:60401->127.0.0.1:60402: use of closed network connection
+10:13:00.912 Stacktrace: 
+10:13:00.912 Failed Step: Check the title of the Google home page is "Google"
+10:13:00.912 Error Message: Connection closed [127.0.0.1:60402] cause: EOF
+10:13:00.912 Stacktrace: 
+10:13:00.912 Error Message: write tcp 127.0.0.1:60401->127.0.0.1:60402: use of closed network connection
+10:13:00.912 Stacktrace: 
+10:13:00.912 Error Message: write tcp 127.0.0.1:60401->127.0.0.1:60402: use of closed network connection
+10:13:00.912 Stacktrace: 
+10:13:00.912 Error Message: write tcp 127.0.0.1:60401->127.0.0.1:60402: use of closed network connection
+10:13:00.912 Stacktrace: 
+10:13:01.013 Specifications:	3 executed	1 passed	2 failed	0 skipped
+10:13:01.013 Scenarios:	5 executed	3 passed	2 failed	0 skipped
+10:13:01.013 
+Total time taken: 7.437s
+10:20:56.230 Runner connection error: Timed out connecting to [::]:60572
+10:20:56.230 Error while killing runner: os: process already finished
+10:20:56.230 Failed to start gauge API: Timed out connecting to [::]:60572
+10:29:13.443 Runner connection error: Timed out connecting to [::]:60603
+10:29:13.443 Error while killing runner: os: process already finished
+10:29:13.443 Failed to start gauge API: Timed out connecting to [::]:60603
+10:31:28.565 Runner connection error: Timed out connecting to [::]:60614
+10:31:28.565 Error while killing runner: os: process already finished
+10:31:28.565 Failed to start gauge API: Timed out connecting to [::]:60614
+10:32:43.584 Runner connection error: Timed out connecting to [::]:60689
+10:32:43.584 Error while killing runner: os: process already finished
+10:32:43.584 Failed to start gauge API: Timed out connecting to [::]:60689
+14:57:21.439 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:57:21.443 # This spec is an example on how to test an angular website with webdriver.io
+14:57:21.445 ## Check the title of the Angular home page
+14:57:21.449 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+14:57:51.948 Failed Step: Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+14:57:51.948 Error Message: Error: Timed out
+14:57:51.948 Stacktrace: 
+Error: Timed out
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/test.js:42:23)
+    at Timer.listOnTimeout (timers.js:119:15)
+14:57:51.949 ## Add a new festival
+14:57:51.951 # Specification Heading
+14:57:51.952 ## Vowel counts in single word
+14:57:51.953 * Vowels in English language are "aeiou".
+14:57:51.954 * The word "gauge" has "3" vowels.
+14:57:51.957 ## Vowel counts in multiple word
+14:57:51.958 * Vowels in English language are "aeiou".
+14:57:51.960 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+14:57:52.069 Specifications:	2 executed	1 passed	1 failed	0 skipped
+14:57:52.069 Scenarios:	4 executed	3 passed	1 failed	0 skipped
+14:57:52.069 
+Total time taken: 30.522s
+14:58:05.941 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:58:05.944 # This spec is an example on how to test an angular website with webdriver.io
+14:58:05.946 ## Check the title of the Angular home page
+14:58:05.949 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+14:58:52.944 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+14:58:52.947 # This spec is an example on how to test an angular website with webdriver.io
+14:58:52.948 ## Check the title of the Angular home page
+14:58:52.951 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+14:58:53.438 Failed Step: Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+14:58:53.438 Error Message: ReferenceError: driver is not defined
+14:58:53.438 Stacktrace: 
+ReferenceError: driver is not defined
+    at Object.<anonymous> (tests/angular.js:14:3)
+    at runFnAsync (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/test.js:65:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/test.js:75:16)
+    at Object.executeStep [as step] (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/executor.js:45:70)
+    at executeStep (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/message-processor.js:31:26)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/gauge.js:15:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/connection.js:18:10)
+    at Socket.emit (events.js:107:17)
+14:58:53.439 ## Add a new festival
+14:58:53.441 # Specification Heading
+14:58:53.442 ## Vowel counts in single word
+14:58:53.442 * Vowels in English language are "aeiou".
+14:58:53.444 * The word "gauge" has "3" vowels.
+14:58:53.446 ## Vowel counts in multiple word
+14:58:53.447 * Vowels in English language are "aeiou".
+14:58:53.448 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+14:58:53.556 Specifications:	2 executed	1 passed	1 failed	0 skipped
+14:58:53.556 Scenarios:	4 executed	3 passed	1 failed	0 skipped
+14:58:53.556 
+Total time taken: 508ms
+15:00:59.868 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+15:00:59.880 # This spec is an example on how to test an angular website with webdriver.io
+15:00:59.886 ## Check the title of the Angular home page
+15:00:59.899 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+15:01:01.971 Failed Step: Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+15:01:01.971 Error Message: ReferenceError: driver is not defined
+15:01:01.971 Stacktrace: 
+ReferenceError: driver is not defined
+    at Object.<anonymous> (tests/angular.js:14:3)
+    at runFnAsync (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/test.js:65:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/test.js:75:16)
+    at Object.executeStep [as step] (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/executor.js:45:70)
+    at executeStep (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/message-processor.js:31:26)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/gauge.js:15:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/connection.js:18:10)
+    at Socket.emit (events.js:107:17)
+15:01:01.975 ## Add a new festival
+15:01:01.985 # Specification Heading
+15:01:01.989 ## Vowel counts in single word
+15:01:01.993 * Vowels in English language are "aeiou".
+15:01:02.001 * The word "gauge" has "3" vowels.
+15:01:02.015 ## Vowel counts in multiple word
+15:01:02.018 * Vowels in English language are "aeiou".
+15:01:02.027 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+15:01:02.149 Specifications:	2 executed	1 passed	1 failed	0 skipped
+15:01:02.150 Scenarios:	4 executed	3 passed	1 failed	0 skipped
+15:01:02.150 
+Total time taken: 2.177s
+15:01:42.326 Error starting plugin html-report. Failed to get plugin.json. Plugin html-report  is not installed. To install, run `gauge --install html-report`.
+15:01:42.338 # This spec is an example on how to test an angular website with webdriver.io
+15:01:42.344 ## Check the title of the Angular home page
+15:01:42.357 * Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+15:01:44.345 Failed Step: Check the title of the Angular home page is "Angular testing with Gauge and webdriver.io"
+15:01:44.345 Error Message: ReferenceError: driver is not defined
+15:01:44.345 Stacktrace: 
+ReferenceError: driver is not defined
+    at Object.<anonymous> (tests/angular.js:14:3)
+    at runFnAsync (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/test.js:65:13)
+    at Test.run (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/test.js:75:16)
+    at Object.executeStep [as step] (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/executor.js:45:70)
+    at executeStep (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/message-processor.js:31:26)
+    at MessageProcessor.getResponseFor (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/message-processor.js:149:40)
+    at null.<anonymous> (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/gauge.js:15:22)
+    at emit (events.js:107:17)
+    at Socket.messageHandler (/Users/PhilBeadle/.gauge/plugins/js/1.2.1/src/connection.js:18:10)
+    at Socket.emit (events.js:107:17)
+15:01:44.349 ## Add a new festival
+15:01:44.358 # Specification Heading
+15:01:44.361 ## Vowel counts in single word
+15:01:44.364 * Vowels in English language are "aeiou".
+15:01:44.371 * The word "gauge" has "3" vowels.
+15:01:44.383 ## Vowel counts in multiple word
+15:01:44.386 * Vowels in English language are "aeiou".
+15:01:44.397 * Almost all words have vowels 
+     |Word  |Vowel Count|
+     |------|-----------|
+     |Gauge |3          |
+     |Mingle|2          |
+     |Snap  |1          |
+     |GoCD  |1          |
+     |Rhythm|0          |
+15:01:44.520 Specifications:	2 executed	1 passed	1 failed	0 skipped
+15:01:44.520 Scenarios:	4 executed	3 passed	1 failed	0 skipped
+15:01:44.520 
+Total time taken: 2.089s
