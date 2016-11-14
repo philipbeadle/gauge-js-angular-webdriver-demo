@@ -9,7 +9,7 @@ The code is all in github repo https://github.com/philipbeadle/angularTestFromSc
 * Clone the repo locally and switch to branch Step1
 _If you don't know how to set up SSH connections to Github check this article [SSH for github](https://help.github.com/articles/generating-an-ssh-key/)_
 ```
-git clone git@github.com:philipbeadle/gauge-js-angular-webdriver-demo.git.git
+git clone git@github.com:philipbeadle/gauge-js-angular-webdriver-demo.git
 ```
 
 ## Step 1
